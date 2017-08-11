@@ -1,0 +1,89 @@
+body
+    padding: 5px;
+
+#container{
+    display: flex;
+    overflow:visible;
+    height:400px;
+    width:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+#container h1{
+    font-family: sans-serif;
+    color: dimgray;
+    background-color: dodgerblue;
+    text-transform: capitalize;
+    text-overflow: inherit;
+   
+    font-size: 46px;
+    padding: 45px;
+    margin-top: 8px;
+    margin-bottom: 1px;
+    margin-left: 6px;
+    margin-right: 6px;
+
+}
+#one{
+    height:350px;
+    width: 340px;
+    float:left;
+
+}
+#two{
+    height:350px;
+    width:340px;
+    float: left;
+    padding-left: 25px;
+    position: relative;
+}
+#ed{
+    height:220px;
+    width:270px;
+    margin-left: 40px;
+    font-family:sans-serif;
+    color: black;
+    font-size: 14px;
+
+}
+#fo{
+    height: 220px;
+    width: 270px;
+    position: relative;
+    margin-left: 20px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 14px;
+    
+}
+#he{
+    height:220px;
+    width:270px;
+    float: left;
+    position: inherit;
+    margin-left: 25px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 14px;
+}
+#two :hover{
+color: seagreen;
+    font-family: cursive;
+    font-size: 15px;
+    
+
+}
+#one :hover{
+    color: forestgreen;
+    font-family: cursive;
+    font-size: 15px;
+}
+#he :hover{
+    color:forestgreen;
+    font-family: cursive;
+    font-size: 15px;
+}

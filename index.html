@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>NGO|1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
+        
+        <link href="customCSS/mystyles.css" rel="stylesheet">
+        <link rel="stylesheet" href="customCSS/slidorian.css" />
+        <link rel="stylesheet" href="customCSS/progress.css" />
+        <link rel="stylesheet" href="customCSS/footer.css" />
+         <link rel="stylesheet" type="text/css" href="customCSS/styling.css">
+        <script>
+                if (window.innerWidth > 760) {
+                    window.addEventListener("scroll", function() {
+                        if (window.scrollY < 100) {
+                            //remove top navbar
+                            $("#hide1").css("display", "none");
+                            $('#nav1').removeClass("navbar-fixed-top");
+                        }
+                        if (window.scrollY >= 100) {
+                            $("#hide1").css("display", "block");
+                            $('.navbar').fadeOut("slow");
+                            //show
+                            $('#nav1').addClass("navbar-fixed-top");
+                        } else {
+                            $('.navbar').fadeIn("slow");
+                        }
+                    }, false);
+
+                }
+                else {
+                    $(document).ready(function() {
+                        $('#hide2').remove();
+                        $('#nav2').removeClass("navbar-static-bottom");
+                        $('#nav1').addClass("navbar-fixed-top");
+                        $("#hide1").css("display", "block");
+
+                    });
+
+                }
+        </script>
+    </head>
+    <body>
+    <!--***SHUBHAM'S CODE STARTED***-->
+       <div id="hide1" class="col-lg-12" style="display: none">
+        <!--navbar 1-->
+        <nav class=" header-nav navbar1 " role="navigation" id="nav1">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Aim India Foundation</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul style="font-size: 1.3em; " class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                         Menu <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">A</a></li>
+                                <li><a href="#">c</a></li>
+                                <li><a href="#">De</a></li>
+                                <li><a href="#">D</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">S</li>
+                                <li><a href="#">Lda</a></li>
+                                <li><a href="#">Wdads</a></li>
+                            </ul>
+                        </li> 
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#" id="nav-3">How can you help</a></li>
+                        <li><a href="#" id="nav-4">Event & News</a></li>
+                        <li><a href="#" id="nav-1">Our Blog</a></li>
+                        <li><a href="#" id="nav-2">Contact Us</a></li>
+                        <!-- <li><a href="#team" id="nav-3">Team</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+       <header class="jumbotron ">
+        <!-- Main component for a primary marketing message or call to action -->
+        <div class=" container">
+            <div class="row row-header">
+                <div class="col-xs-7 col-sm-9">
+                    <img src="img/logo.png" alt="logo" class="img-responsive">
+                    <h1>Aim India Foundation</h1>
+                    <p style="padding:90px;"></p>
+                    <p></p>
+                </div>
+                <div class=" col-xs-5 col-sm-2 col-md-offset-1 col-lg-offfset-1">
+                    <p style="padding: 10px"></p>
+                    <img src="img/top_menu2.png" class="img-responsive" id="" alt="Banner">
+                    <a type="button" class="btn btn-warning btn-block "> Donate </a>
+                </div>
+                <div id="but" class="arrow-contain ">
+                    <a href="#section2"><i class="fa fa-angle-double-down fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+       <div id="hide2"  style="">
+    <nav class=" header-nav navbar navbar-static-bottom " role="navigation" id="nav2">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Aim India Foundation</a>
+            </div>
+            <div id="navbar2" class="navbar-collapse collapse">
+                 <ul style="font-size: 1.3em; " class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                         Menu <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">A</a></li>
+                                <li><a href="#">c</a></li>
+                                <li><a href="#">De</a></li>
+                                <li><a href="#">D</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">S</li>
+                                <li><a href="#">Lda</a></li>
+                                <li><a href="#">Wdads</a></li>
+                            </ul>
+                        </li> 
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#" id="nav-3">How can you help</a></li>
+                        <li><a href="#" id="nav-4">Event & News</a></li>
+                        <li><a href="#" id="nav-1">Our Blog</a></li>
+                        <li><a href="#" id="nav-2">Contact Us</a></li>
+                        <!-- <li><a href="#team" id="nav-3">Team</a></li> -->
+                    </ul>
+
+            </div>
+        </div>
+    </nav>
+    </div>
+    <!--***SHUBHAM'S CODE ENDED***-->
+    <!--***AMRITA'S CODE STARTED***-->
+        <div  id="section2" class="container-fluid"> 
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/placeholder.png" alt="Image" style="width:100%; height:400px;">
+      </div>
+
+      <div class="item">
+        <img src="img/placeholder.png" alt="Image" style="width:100%; height:400px;">
+      </div>
+    
+      <div class="item">
+        <img src="img/placeholder.png" alt="Image" style="width:100%; height:400px;">
+      </div>
+      
+      <div class="item">
+        <img src="img/placeholder.png" alt="Image" style="width:100%; height:400px;">
+      </div>
+      
+      <div class="item">
+        <img src="img/placeholder.png" alt="Image" style="width:100%; height:400px;">
+      </div>
+      
+      
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+    <!--***AMRITA'S CODE ENDED***-->
+    <!--***MANISH'S CODE STARTED***-->
+   <div id="container">
+<br>            <h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What we do   ?</h1>
+       <br>
+        <div class="trigger" id="one">
+        <div class="box" id="two">
+            <div class="education" id="one">
+                <div id="ed">
+            <img src="img/logo.jpg">
+                <h3> Education</h3>
+             <p>Our education programmes are designed for children who have been born in deprived communities to find hope and meaning in life <a href="">  More</a></p>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="food" id="two">
+                <div id="fo">
+        
+            <img src="img/food.jpg" >
+            <h3>Food</h3>
+            <p>We use effective information, education and communication activities as well as advocacy to combat the spread of diseases such as <a href="">  More</a></p></div>
+             </div>
+                </div>
+        </div>
+        </div>
+        <div class="trigger" id="one">
+        <div class="box" id="two">
+            <div id="he">
+            <div class="health" id="three">
+            <img src="img/logo1.jpg">   
+            <h3>Health </h3>
+                <p>We strives for safe food for all. Zero wastage is our moto. Enough food is produced to feed every one, we need to restrict wastage.
+                    <a href="">  More</a>
+
+                </p>
+            </div>
+            </div>
+        </div>
+        </div>
+    <!--***MANISH'S CODE ENDED***-->
+    <!--***VIPUL'S CODE STARTED***-->
+    <!--
+        <div class="container" id="slidorian-container">
+    <div class="row">
+      <div class="col-md-9">
+        <div id="slidorion">
+          --slider images
+          <div id="accordion">
+            <div class="header"><a class="slider-link" rel="section1">Umbrella Distribution Camp</a></div>
+              <div class="content">
+                <p>In the year 2018 Aim India Foundation Distributed 341 umbrellas to the needy school children  of  slum  areas  at Kolkata. Eminent Film  Director  and  Actor Mr.  Gautom Ghosh, encouraged us by gracing the occasion.</p>
+                <a href="#">Read more</a>
+              </div>
+            <div class="header"><a class="slider-link" rel="section2">Project Shyamali</a></div>
+              <div class="content">
+                <p>Last year we have planted 27k seedlings. This year we have a target of plantation of 50k seedlings involving children. Our Project Shyamali  - One Chield One Tree is supported by West Bengal Police, Inspector General of Police, South Bengal, Mr. Ajay Ranade, IPS, helped us a lot. He was personally presented in Sundarban Area for tree plantation. We will certainly get his support this year again. Padma Bhushan Sri Soumitra Chattopadhyay, chosen for France’s highest civilian award the coveted Legion of Honour this year, is expected to be with us in this programme. </p>
+                <a href="#">Read more</a>
+              </div>
+            <div class="header"><a class="slider-link" rel="section3">Project Freedom for Girls</a></div>
+              <div class="content">
+                <p>We are in the process of production and distribution of sanitary napkins. Napkins will be produced by jail inmates as a part of AIF’s endeavor to reduce recidivism. Those napkins will be distributed among the underprivileged school girls. We have received all the permission from Government of West Bengal to start production unit in jail premises. We are expecting to start production in July. Director General of Correctional Administration. West Bengal Mr. Arun Kr. Gupta, IPS is helping us to initiate the project. We are expecting full support from Government of West Bengal. </p>
+                <a href="#">Read more</a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <!--progress bar for financial allocation-->
+        <div class="well">
+          <h3>Our Financial Allocation</h3>
+            <p id="financial-intro"><h5>We Allocate as maximum as we can for the welfare of the underprivileged.</h5></p>
+          <div class="progress blue">
+            <span class="progress-left">
+              <span class="progress-bar"></span>
+            </span>
+            <span class="progress-right">
+              <span class="progress-bar"></span>
+            </span>
+              <div class="progress-value">Project Exp. 95%</div>
+           </div>
+          <p class="text-danger">Project Expense: 95%</p>
+          <p class="text-warning">Administration Expense: 4%</p>
+          <p class="text-success">Unspent: 1%</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--Footer-->
+      <footer>
+      <div class="container">
+        <div class="row" id="first-row">
+          <div class="col-md-4">
+            <h2 class="footer-heading">AIM&nbsp;INDIA FOUNDATION</h2>
+              <p>Aim India Foundation is registered as a non-governmental organisation to better pursue its agenda of working towards providing opportunities and enabling conditions for the underprivileged people of India for better quality of life.
+              </p>
+              <div class="social">
+                  <i class="fa fa-facebook-official fa-2x" id="fb-icon" aria-hidden="true"></i>
+                  <i class="fa fa-twitter-square fa-2x" id="tw-icon" aria-hidden="true"></i>
+                  <i class="fa fa-linkedin-square fa-2x" id="lin-icon" aria-hidden="true"></i>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <h2 class="footer-heading">CONTACT US</h2>
+            <p><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
+            41, Ballygaunge Terrace, Kolkatta,<br> West-Bengal, India <br>Pin: 700029
+            </p>
+            <p>
+                <i class="fa fa-phone fa-lg" aria-hidden="true"></i>
+                (+91)(33)46003593
+            </p>
+            <p>
+                <i class="fa fa-fax fa-lg" aria-hidden="true"></i>
+                (+91)(33)46003593
+            </p>
+            <p>
+                <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+                <a href="mailto:info@aimindia.org.in" target="_top">info@aimindia.org.in</a>
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h2 class="footer-heading">SEND US A WORD</h2>
+            <form action="#">
+
+                       <input type="text" name="name" placeholder="Your Name"><br>
+
+                       <input type="email" name="email" placeholder="Your Email Address" required><br>
+
+                       <input type="number" name="contactno" placeholder="Your Contact No." required><br>
+
+                       <textarea name="message" id="" cols="41" rows="5" placeholder="Type your message." required></textarea>
+                       <input type="submit" class="btn btn-success" id="btn-send" name="send" value="Send">
+                   </form>
+          </div>
+        </div>
+        <!--copyright section-->
+      </div>
+      <div class="copyright">  <div class="container">
+          <div class="row">
+            <div class="col-md-6 left-col">
+              <p>© 2017 - All Rights with Aim India Foundation</p>
+            </div>
+            <div class="col-md-6 right-col">
+              <ul class="bottom_ul">
+                    <li><a href="#">aimindia.org.in</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Terms and Policy</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#" class="scrollToTop fa fa-arrow-up"></a></li>
+                  </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+    </footer>
+    <!--***VIPUL'S CODE ENDED***-->
+        <!--Script tags-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.slidorion.js"></script>
+        <script src="customJS/j.js"></script>
+    </body>
+</html>
